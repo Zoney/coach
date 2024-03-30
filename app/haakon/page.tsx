@@ -10,8 +10,8 @@ export default function Home() {
         <p className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
           Når man utarbeider et treningsprogram med mål om å fullføre en
           maraton, er det essensielt å bygge på prinsippene til Dr. Jack Daniels
-          og hans velprøvde &quot;Running Formula.&quot; Daniels, en anerkjent ekspert
-          innen løpevitenskap, understreker betydningen av presis
+          og hans velprøvde &quot;Running Formula.&quot; Daniels, en anerkjent
+          ekspert innen løpevitenskap, understreker betydningen av presis
           intensitetskontroll for å maksimere treningsfordelene uten å
           overbelaste kroppen. Hans filosofi kan oppsummeres i noen
           nøkkelprinsipper: individualisert tempo basert på nåværende
@@ -47,118 +47,132 @@ export default function Home() {
 
         <p className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
           Optimal restitusjon Hviledager og lette joggedager er ikke bare
-          &quot;fridager&quot;; de er en integrert del av treningsplanen. Disse dagene
-          sikrer at kroppen heler fra mikroskadene som oppstår under de hardere
-          treningsøktene, og de bidrar til å bygge en sterkere, mer utholdende
-          løper. Aktiv restitusjon, som lett sykling eller svømming, kan også
-          være verdifulle verktøy for å fremme restitusjonen uten å legge til
-          løpsrelatert belastning.
+          &quot;fridager&quot;; de er en integrert del av treningsplanen. Disse
+          dagene sikrer at kroppen heler fra mikroskadene som oppstår under de
+          hardere treningsøktene, og de bidrar til å bygge en sterkere, mer
+          utholdende løper. Aktiv restitusjon, som lett sykling eller svømming,
+          kan også være verdifulle verktøy for å fremme restitusjonen uten å
+          legge til løpsrelatert belastning.
         </p>
       </>
     ),
     table: (
       <>
         <table className="min-w-full text-left divide-y divide-gray-200 text-sm dark:divide-gray-800">
-            <thead className="text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
-              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
-                <th className="px-6 py-3">Week</th>
-                <th className="px-6 py-3">Day 1</th>
-                <th className="px-6 py-3">Day 2</th>
-                <th className="px-6 py-3">Day 3</th>
-                <th className="px-6 py-3">Day 4</th>
-                <th className="px-6 py-3">Day 5</th>
-                <th className="px-6 py-3">Day 6</th>
-                <th className="px-6 py-3">Day 7</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
-              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
-                <td className="px-6 py-3">1</td>
-                <td className="px-6 py-3 bg-gradient-to-br from-green-600 to-transparent">Rolig langtur, 70 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 40 min i sone 1</td>
-                <td className="px-6 py-3 bg-gradient-radial from-violet-950 to-transparent">
-                  <p className="px-2 border border-red-400">Intervall</p>
-                  <p className="px-2 border border-red-100">10 min oppv</p>
-                  <p className="px-2 border border-red-900">5x4 min sone 4</p>
-                  <p className="px-2 border border-red-100">10 min nedjogg</p>
-                </td>
-                <td className="px-6 py-3">Lett jogg, 50 min i sone 1-2</td>
-                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
-                <td className="px-6 py-3">Progressiv langtur, 1t 45 min</td>
-                <td className="px-6 py-3">Lett jogg, 70 min i sone 1</td>
-              </tr>
-              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
-                <td className="px-6 py-3">2</td>
-                <td className="px-6 py-3">Rolig langtur, 80 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 45 min i sone 1</td>
-                <td className="px-6 py-3 bg-gradient-radial from-violet-900 to-transparent">
-                  <p className="px-2 border border-red-400">Intervall</p>
-                  <p className="px-2 border border-red-100">15 min oppv</p>
-                  <p className="px-2 border border-red-900">4x5 min sone 4</p>
-                  <p className="px-2 border border-red-100">10 min nedjogg</p>
-                </td>
-                <td className="px-6 py-3">Lett jogg, 60 min i sone 1-2</td>
-                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
-                <td className="px-6 py-3">Langtur, 2 timer i sone 2-3</td>
-                <td className="px-6 py-3">Lett jogg, 75 min i sone 1</td>
-              </tr>
-              <tr className="divide-x divide-gray-200 dark:divide-gray-500">
-                <td className="px-6 py-3">3</td>
-                <td className="px-6 py-3">Rolig langtur, 90 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 50 min i sone 1</td>
-                <td className="px-6 py-3 bg-gradient-radial from-violet-800 to-transparent">
-                  <p className="px-2 border border-red-400">Intervall</p>
-                  <p className="px-2 border border-red-100">15 min oppv</p>
-                  <p className="px-2 border border-red-900">5x4 min sone 4-5</p>
-                  <p className="px-2 border border-red-100">15 min nedjogg</p>
-                </td>
-                <td className="px-6 py-3">Lett jogg, 65 min i sone 1-2</td>
-                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
-                <td className="px-6 py-3">Langtur, 2t 15 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 80 min i sone 1</td>
-              </tr>
-              <tr className="divide-x divide-gray-200 dark:divide-gray-600">
-                <td className="px-6 py-3">4</td>
-                <td className="px-6 py-3">Rolig langtur, 1t 30 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 55 min i sone 1</td>
-                <td className="px-6 py-3 bg-gradient-radial from-violet-700 to-transparent">
-                  <p className="px-2 border border-red-400">Intervall</p>
-                  <p className="px-2 border border-red-100">20 min oppv</p>
-                  <p className="px-2 border border-red-900">6x4 min sone 4-5</p>
-                  <p className="px-2 border border-red-100">15 min nedjogg</p>
-                </td>
-                <td className="px-6 py-3">Lett jogg, 70 min i sone 1-2</td>
-                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
-                <td className="px-6 py-3">Langtur, 3 timer i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 90 min i sone 1</td>
-              </tr>
-              <tr className="divide-x divide-gray-200 dark:divide-gray-700">
-                <td className="px-6 py-3">5</td>
-                <td className="px-6 py-3">Rolig langtur, 60 min i sone 2</td>
-                <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
-                <td className="px-6 py-3 bg-gradient-radial from-violet-600 to-transparent">
-                  <p className="px-2 border border-red-400">Intervall</p>
-                  <p className="px-2 border border-red-100">10 min oppv</p>
-                  <p className="px-2 border border-red-900">4x2 min sone 3</p>
-                  <p className="px-2 border border-red-100">10 min nedjogg</p>
-                </td>
-                <td className="px-6 py-3">Hviledag</td>
-                <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
-                <td className="px-6 py-3">Hviledag</td>
-                <td className="px-6 py-3 bg-gradient-to-br from-transparent to-blue-500">Maraton</td>
-              </tr>
-            </tbody>
-          </table>
+          <thead className="text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
+            <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+              <th className="px-6 py-3">Week</th>
+              <th className="px-6 py-3">Day 1</th>
+              <th className="px-6 py-3">Day 2</th>
+              <th className="px-6 py-3">Day 3</th>
+              <th className="px-6 py-3">Day 4</th>
+              <th className="px-6 py-3">Day 5</th>
+              <th className="px-6 py-3">Day 6</th>
+              <th className="px-6 py-3">Day 7</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
+            <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+              <td className="px-6 py-3">0</td>
+              <td className="px-6 py-3"> </td>
+              <td className="px-6 py-3"> </td>
+              <td className="px-6 py-3"> </td>
+              <td className="px-6 py-3"> </td>
+              <td className="px-6 py-3"> </td>
+              <td className="px-6 py-3">Rolig langtur, 60 min i sone 2.</td>
+              <td className="px-6 py-3">Hviledag eller veldig lett aktivitet</td>
+            </tr>
+            <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+              <td className="px-6 py-3">1</td>
+              <td className="px-6 py-3 bg-gradient-to-br from-green-600 to-transparent">
+                Rolig langtur, 70 min i sone 2
+              </td>
+              <td className="px-6 py-3">Lett jogg, 40 min i sone 1</td>
+              <td className="px-6 py-3 bg-gradient-radial from-violet-950 to-transparent">
+                <p className="px-2 border border-red-400">Intervall</p>
+                <p className="px-2 border border-red-100">10 min oppv</p>
+                <p className="px-2 border border-red-900">5x4 min sone 4</p>
+                <p className="px-2 border border-red-100">10 min nedjogg</p>
+              </td>
+              <td className="px-6 py-3">Lett jogg, 50 min i sone 1-2</td>
+              <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+              <td className="px-6 py-3">Progressiv langtur, 1t 45 min</td>
+              <td className="px-6 py-3">Lett jogg, 70 min i sone 1</td>
+            </tr>
+            <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+              <td className="px-6 py-3">2</td>
+              <td className="px-6 py-3">Rolig langtur, 80 min i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 45 min i sone 1</td>
+              <td className="px-6 py-3 bg-gradient-radial from-violet-900 to-transparent">
+                <p className="px-2 border border-red-400">Intervall</p>
+                <p className="px-2 border border-red-100">15 min oppv</p>
+                <p className="px-2 border border-red-900">4x5 min sone 4</p>
+                <p className="px-2 border border-red-100">10 min nedjogg</p>
+              </td>
+              <td className="px-6 py-3">Lett jogg, 60 min i sone 1-2</td>
+              <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+              <td className="px-6 py-3">Langtur, 2 timer i sone 2-3</td>
+              <td className="px-6 py-3">Lett jogg, 75 min i sone 1</td>
+            </tr>
+            <tr className="divide-x divide-gray-200 dark:divide-gray-500">
+              <td className="px-6 py-3">3</td>
+              <td className="px-6 py-3">Rolig langtur, 90 min i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 50 min i sone 1</td>
+              <td className="px-6 py-3 bg-gradient-radial from-violet-800 to-transparent">
+                <p className="px-2 border border-red-400">Intervall</p>
+                <p className="px-2 border border-red-100">15 min oppv</p>
+                <p className="px-2 border border-red-900">5x4 min sone 4-5</p>
+                <p className="px-2 border border-red-100">15 min nedjogg</p>
+              </td>
+              <td className="px-6 py-3">Lett jogg, 65 min i sone 1-2</td>
+              <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+              <td className="px-6 py-3">Langtur, 2t 15 min i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 80 min i sone 1</td>
+            </tr>
+            <tr className="divide-x divide-gray-200 dark:divide-gray-600">
+              <td className="px-6 py-3">4</td>
+              <td className="px-6 py-3">Rolig langtur, 1t 30 min i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 55 min i sone 1</td>
+              <td className="px-6 py-3 bg-gradient-radial from-violet-700 to-transparent">
+                <p className="px-2 border border-red-400">Intervall</p>
+                <p className="px-2 border border-red-100">20 min oppv</p>
+                <p className="px-2 border border-red-900">6x4 min sone 4-5</p>
+                <p className="px-2 border border-red-100">15 min nedjogg</p>
+              </td>
+              <td className="px-6 py-3">Lett jogg, 70 min i sone 1-2</td>
+              <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+              <td className="px-6 py-3">Langtur, 3 timer i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 90 min i sone 1</td>
+            </tr>
+            <tr className="divide-x divide-gray-200 dark:divide-gray-700">
+              <td className="px-6 py-3">5</td>
+              <td className="px-6 py-3">Rolig langtur, 60 min i sone 2</td>
+              <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
+              <td className="px-6 py-3 bg-gradient-radial from-violet-600 to-transparent">
+                <p className="px-2 border border-red-400">Intervall</p>
+                <p className="px-2 border border-red-100">10 min oppv</p>
+                <p className="px-2 border border-red-900">4x2 min sone 3</p>
+                <p className="px-2 border border-red-100">10 min nedjogg</p>
+              </td>
+              <td className="px-6 py-3">Hviledag</td>
+              <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
+              <td className="px-6 py-3">Hviledag</td>
+              <td className="px-6 py-3 bg-gradient-to-br from-transparent to-blue-500">
+                Maraton
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </>
     ),
     postPlan: (
       <div className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
         <p className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-          I denne tilpassede treningsplanen, basert på Dr. Daniels&apos; metoder, har
-          vi sørget for gradvis økning av både volum og intensitet over fem
-          uker, med et spesielt fokus på en langtur som bygger opp til 3 timer i
-          uke 4. Dette sikrer at du når toppen av din aerobe kapasitet og
-          løpeøkonomi rett før en nøye timet nedtrapping. Målet med
+          I denne tilpassede treningsplanen, basert på Dr. Daniels&apos;
+          metoder, har vi sørget for gradvis økning av både volum og intensitet
+          over fem uker, med et spesielt fokus på en langtur som bygger opp til
+          3 timer i uke 4. Dette sikrer at du når toppen av din aerobe kapasitet
+          og løpeøkonomi rett før en nøye timet nedtrapping. Målet med
           nedtrappingen er å komme til startstreken frisk, hvilt, og med en
           følelse av å være &quot;sulten&quot; etter å løpe.
         </p>
@@ -175,13 +189,13 @@ export default function Home() {
         </p>
         <p className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
           Med en personlig rekord på 10 km på 43 minutter, kan vi bruke Jack
-          Daniels&apos; VDOT-tabeller for å estimere dine løpesoner. Disse sonene er
-          basert på hans VDOT-score, som er et mål på din løpekapasitet eller
-          kondisjon. Tabellene tilordner et VDOT-nummer basert på løpstider, som
-          igjen brukes til å beregne treningsintensiteter for ulike typer
-          trening. For en 10 km tid på 43 minutter, vil din VDOT-score være
-          omtrentlig i området 48-49. La oss bruke en VDOT-score på 48 til å
-          estimere dine løpesoner:
+          Daniels&apos; VDOT-tabeller for å estimere dine løpesoner. Disse
+          sonene er basert på hans VDOT-score, som er et mål på din
+          løpekapasitet eller kondisjon. Tabellene tilordner et VDOT-nummer
+          basert på løpstider, som igjen brukes til å beregne
+          treningsintensiteter for ulike typer trening. For en 10 km tid på 43
+          minutter, vil din VDOT-score være omtrentlig i området 48-49. La oss
+          bruke en VDOT-score på 48 til å estimere dine løpesoner:
         </p>
         <ul className="list-disc list-inside">
           <li className="mb-2">
