@@ -58,8 +58,97 @@ export default function Home() {
     ),
     table: (
       <>
-        This, but more text before the table (just placeholder) and text after
-        (just placeholder).
+        <table className="min-w-full text-left divide-y divide-gray-200 text-sm dark:divide-gray-800">
+            <thead className="text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
+              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+                <th className="px-6 py-3">Week</th>
+                <th className="px-6 py-3">Day 1</th>
+                <th className="px-6 py-3">Day 2</th>
+                <th className="px-6 py-3">Day 3</th>
+                <th className="px-6 py-3">Day 4</th>
+                <th className="px-6 py-3">Day 5</th>
+                <th className="px-6 py-3">Day 6</th>
+                <th className="px-6 py-3">Day 7</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
+              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+                <td className="px-6 py-3">1</td>
+                <td className="px-6 py-3 bg-gradient-to-br from-green-600 to-transparent">Rolig langtur, 70 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 40 min i sone 1</td>
+                <td className="px-6 py-3 bg-gradient-radial from-violet-950 to-transparent">
+                  <p className="px-2 border border-red-400">Intervall</p>
+                  <p className="px-2 border border-red-100">10 min oppv</p>
+                  <p className="px-2 border border-red-900">5x4 min sone 4</p>
+                  <p className="px-2 border border-red-100">10 min nedjogg</p>
+                </td>
+                <td className="px-6 py-3">Lett jogg, 50 min i sone 1-2</td>
+                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+                <td className="px-6 py-3">Progressiv langtur, 1t 45 min</td>
+                <td className="px-6 py-3">Lett jogg, 70 min i sone 1</td>
+              </tr>
+              <tr className="divide-x divide-gray-200 dark:divide-gray-800">
+                <td className="px-6 py-3">2</td>
+                <td className="px-6 py-3">Rolig langtur, 80 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 45 min i sone 1</td>
+                <td className="px-6 py-3 bg-gradient-radial from-violet-900 to-transparent">
+                  <p className="px-2 border border-red-400">Intervall</p>
+                  <p className="px-2 border border-red-100">15 min oppv</p>
+                  <p className="px-2 border border-red-900">4x5 min sone 4</p>
+                  <p className="px-2 border border-red-100">10 min nedjogg</p>
+                </td>
+                <td className="px-6 py-3">Lett jogg, 60 min i sone 1-2</td>
+                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+                <td className="px-6 py-3">Langtur, 2 timer i sone 2-3</td>
+                <td className="px-6 py-3">Lett jogg, 75 min i sone 1</td>
+              </tr>
+              <tr className="divide-x divide-gray-200 dark:divide-gray-500">
+                <td className="px-6 py-3">3</td>
+                <td className="px-6 py-3">Rolig langtur, 90 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 50 min i sone 1</td>
+                <td className="px-6 py-3 bg-gradient-radial from-violet-800 to-transparent">
+                  <p className="px-2 border border-red-400">Intervall</p>
+                  <p className="px-2 border border-red-100">15 min oppv</p>
+                  <p className="px-2 border border-red-900">5x4 min sone 4-5</p>
+                  <p className="px-2 border border-red-100">15 min nedjogg</p>
+                </td>
+                <td className="px-6 py-3">Lett jogg, 65 min i sone 1-2</td>
+                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+                <td className="px-6 py-3">Langtur, 2t 15 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 80 min i sone 1</td>
+              </tr>
+              <tr className="divide-x divide-gray-200 dark:divide-gray-600">
+                <td className="px-6 py-3">4</td>
+                <td className="px-6 py-3">Rolig langtur, 1t 30 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 55 min i sone 1</td>
+                <td className="px-6 py-3 bg-gradient-radial from-violet-700 to-transparent">
+                  <p className="px-2 border border-red-400">Intervall</p>
+                  <p className="px-2 border border-red-100">20 min oppv</p>
+                  <p className="px-2 border border-red-900">6x4 min sone 4-5</p>
+                  <p className="px-2 border border-red-100">15 min nedjogg</p>
+                </td>
+                <td className="px-6 py-3">Lett jogg, 70 min i sone 1-2</td>
+                <td className="px-6 py-3">Hviledag/aktiv restitusjon</td>
+                <td className="px-6 py-3">Langtur, 3 timer i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 90 min i sone 1</td>
+              </tr>
+              <tr className="divide-x divide-gray-200 dark:divide-gray-700">
+                <td className="px-6 py-3">5</td>
+                <td className="px-6 py-3">Rolig langtur, 60 min i sone 2</td>
+                <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
+                <td className="px-6 py-3 bg-gradient-radial from-violet-600 to-transparent">
+                  <p className="px-2 border border-red-400">Intervall</p>
+                  <p className="px-2 border border-red-100">10 min oppv</p>
+                  <p className="px-2 border border-red-900">4x2 min sone 3</p>
+                  <p className="px-2 border border-red-100">10 min nedjogg</p>
+                </td>
+                <td className="px-6 py-3">Hviledag</td>
+                <td className="px-6 py-3">Lett jogg, 30 min i sone 1</td>
+                <td className="px-6 py-3">Hviledag</td>
+                <td className="px-6 py-3 bg-gradient-to-br from-transparent to-blue-500">Maraton</td>
+              </tr>
+            </tbody>
+          </table>
       </>
     ),
     postPlan: (
