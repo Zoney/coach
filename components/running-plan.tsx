@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ReactElement } from "react";
 
 export type RunningPlanProps = {
@@ -18,6 +19,27 @@ export function RunningPlan({
 }: RunningPlanProps) {
   return (
     <div className="w-full py-12 md:py-24">
+      <Link
+        className="flex items-center w-5 justify-center px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700"
+        href="/"
+      >
+        <svg
+          className="w-5 h-5 rtl:rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+        >
+          <title>Go back</title>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+          />
+        </svg>
+        <span>Back</span>
+      </Link>
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
