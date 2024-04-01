@@ -9,7 +9,7 @@ export default function Home() {
         som navigerer gjennom restitusjon etter en skade, eller en nybegynner
         med et ønske om å starte din løpekarriere på en sunn og sikker måte, er
         denne planen designet med nettopp deg i tankene. Inspirert av Jack
-        Daniels' anerkjente løpeformel, er vårt mål å støtte deg gjennom hvert
+        Daniels&apos; anerkjente løpeformel, er vårt mål å støtte deg gjennom hvert
         steg mot full restitusjon og forbedret løpeytelse, selv mens du
         forbereder deg til en skulderoperasjon. La oss gjøre denne reisen sammen
         – steg for steg, dag for dag.
@@ -21,7 +21,7 @@ export default function Home() {
         <p className="max-w-3xl mx-auto my-8 text-gray-500 md:text-xl/relaxed dark:text-gray-400">
           Denne løpeplanen er nøye tilpasset for å møte behovene til løpere som
           står overfor fysiske utfordringer, spesielt de med skader som krever
-          operasjon. Basert på Jack Daniels' løpeformel, fokuserer planen på å
+          operasjon. Basert på Jack Daniels&apos; løpeformel, fokuserer planen på å
           bygge et solid aerobt grunnlag, forbedre løpeøkonomien, og fremme
           skadeforebygging gjennom et balansert forhold mellom trening og hvile.
         </p>
