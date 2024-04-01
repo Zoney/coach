@@ -17,7 +17,7 @@ export default function Home() {
           </p>
         </div>
         <div className="grid w-full grid-cols-1 md:grid-cols-3 items-start justify-center gap-8 md:gap-6 lg:gap-12">
-          <div className="flex flex-col gap-2">
+          <div className="border-solid rounded-md border-2 border-sky-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               <Link className="underline" href="haakon">
                 Maraton running
@@ -33,7 +33,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="border-solid rounded-md border-2 border-emerald-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               <Link className="underline" href="aneguri">
                 Recovery running
@@ -49,7 +49,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="border-solid rounded-md border-2 border-rose-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               Barefoot walking/running
             </h3>
@@ -58,7 +58,7 @@ export default function Home() {
               Find your inner peace with customized barefoot lectures.
             </p>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="border-solid rounded-md border-2 border-indigo-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">Leadership</h3>
             <p className="text-2xl font-bold">$149/month</p>
             <p className="text-gray-500 dark:text-gray-400">
