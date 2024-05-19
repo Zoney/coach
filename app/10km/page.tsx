@@ -203,7 +203,7 @@ export default function Home() {
   ]
 
   const runningPlanProps: RunningPlanProps = {
-    heading: <>10km Race on June 21, 2024 at 11:00 AM</>,
+    heading: <>10km Race on June 21, 2024 at 19:00</>,
     motivation: <>Let&apos;s conquer this 10km race with energy and precision!</>,
     prePrePlan: <>This isn&apos;t just a run; it&apos;s a testament to your hard work and dedication.</>,
     prePlan: (
