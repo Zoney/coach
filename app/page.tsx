@@ -17,7 +17,23 @@ export default function Home() {
           </p>
         </div>
         <div className="grid w-full grid-cols-1 md:grid-cols-3 items-start justify-center gap-8 md:gap-6 lg:gap-12">
-        <div className="border-solid rounded-md border-2 border-amber-500 flex flex-col gap-2 min-h-48">
+          <div className="border-solid rounded-md border-2 border-amber-500 flex flex-col gap-2 min-h-48">
+            <h3 className="text-2xl font-bold tracking-tight">
+              <Link className="underline" href="til-halv">
+                Road to half
+              </Link>
+            </h3>
+            <p className="text-2xl font-bold">$75/month</p>
+            <p className="text-gray-500 dark:text-gray-400">
+              Personalized half marathon training plan
+            </p>
+            <div className="mt-4">
+              <Link className="text-base font-medium underline" href="til-halv">
+                Read more
+              </Link>
+            </div>
+          </div>
+          <div className="border-solid rounded-md border-2 border-amber-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               <Link className="underline" href="10km">
                 10km race training
