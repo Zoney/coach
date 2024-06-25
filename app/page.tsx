@@ -17,7 +17,7 @@ export default function Home() {
           </p>
         </div>
         <div className="grid w-full grid-cols-1 md:grid-cols-3 items-start justify-center gap-8 md:gap-6 lg:gap-12">
-          <div className="border-solid rounded-md border-2 border-amber-500 flex flex-col gap-2 min-h-48">
+          <div className="border-solid rounded-md border-2 border-violet-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               <Link className="underline" href="til-halv">
                 Road to half
