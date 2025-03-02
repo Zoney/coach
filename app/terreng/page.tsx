@@ -59,8 +59,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Klassiske intervaller: 15 min oppvarming, 6x1000m i sone 4 med 2 min aktiv pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping med stride: 45 min sone 1 + 6x30s stride</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Hviledag eller lett aktivitet</td>
               <td className="px-6 py-3">Langtur på sti: 15 km, sone 1-2</td>
             </tr>
@@ -72,8 +72,8 @@ export default function Home() {
                 Bakkeintervaller: 15 min oppvarming, 8x1 min bratte bakker i sone
                 4-5 med jogg ned som pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Teknisk løping på sti: 40 min sone 1, fokus på tekniske partier</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 30 min, sone 1</td>
               <td className="px-6 py-3">Langtur på asfalt: 14 km, sone 1-2</td>
             </tr>
@@ -84,8 +84,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Terskelintervaller: 15 min oppvarming, 4x8 min i sone 3 med 2 min pause, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Lett løping: 40 min, sone 1</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
@@ -98,8 +98,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Korte intervaller: 15 min oppvarming, 10x45 sek sone 4 med 15 sek pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping med "lette" intervaller: 40 min sone 1 + 5x2 min sone 2</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 35 min, sone 1</td>
               <td className="px-6 py-3">Lett langtur: 13 km, sone 1 (restitusjonsuke)</td>
             </tr>
@@ -112,8 +112,8 @@ export default function Home() {
                 bakker i sone 4 med 1 min pause og 3 min pause mellom serier, 10
                 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Løping med teknikk-fokus: 45 min sone 1 + 10 min spesifikke teknikkøvelser</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Hviledag eller lett aktivitet</td>
               <td className="px-6 py-3">Langtur på sti: 16 km, sone 1-2</td>
             </tr>
@@ -125,8 +125,8 @@ export default function Home() {
                 Progressiv intervall: 15 min oppvarming, 3x2000m i økende
                 tempo (sone 3, 3-4, 4) med 3 min aktiv pause, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Lett løping: 40 min, sone 1</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
@@ -140,8 +140,8 @@ export default function Home() {
                 Fartslek på sti: 15 min oppvarming, 30 min variert tempo
                 basert på terreng (sone 2-4), 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 45 min, sone 1</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Hviledag eller lett aktivitet</td>
               <td className="px-6 py-3">Langtur på teknisk sti: 15 km, sone 1-2 (moderate restitusjonsuke)</td>
             </tr>
@@ -152,8 +152,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Terskelintervaller: 15 min oppvarming, 5x5 min i sone 3 med 2 min pause, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Lett løping: 40 min, sone 1</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
@@ -166,8 +166,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Pyramideintervaller: 15 min oppvarming, 1-2-3-4-3-2-1 min i sone 4 med 1 min aktiv pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Teknisk løping på ujevnt underlag: 50 min sone 1</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 40 min, sone 1</td>
               <td className="px-6 py-3">Langtur med bakkedrag: 18 km, sone 1-2 inkludert 6x30 sek bakkedrag</td>
             </tr>
@@ -178,8 +178,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Lange bakkeintervaller: 15 min oppvarming, 5x3 min bratte bakker i sone 4 med jogg ned som pause, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Lett løping: 40 min, sone 1</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
@@ -192,8 +192,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Terskelløp: 15 min oppvarming, 30 min sammenhengende løp i sone 3, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping med "lette" intervaller: 45 min sone 1 + 6x90 sek sone 2</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 30 min, sone 1</td>
               <td className="px-6 py-3">Lett langtur: 15 km, sone 1 (restitusjonsuke)</td>
             </tr>
@@ -204,12 +204,12 @@ export default function Home() {
               <td className="px-6 py-3">
                 Korte intervaller: 15 min oppvarming, 16x30 sek sone 4-5 med 30 sek pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Løping med teknikk-fokus: 50 min sone 1 + 10 min spesifikke teknikkøvelser</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Langtur på blandet underlag: 20 km, sone 1-2</td>
             </tr>
             <tr className="divide-x divide-gray-200 dark:divide-gray-800">
               <td className="px-6 py-3">13</td>
@@ -218,8 +218,8 @@ export default function Home() {
               <td className="px-6 py-3">
                 Fartslek med spesifikke segmenter: 15 min oppvarming, 40 min variert tempo med 8x2 min hardt, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping med stride: 50 min sone 1 + 6x30s stride</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Hviledag eller lett aktivitet</td>
               <td className="px-6 py-3">Langtur på blandet underlag: 24 km, sone 1-2</td>
             </tr>
@@ -230,12 +230,12 @@ export default function Home() {
               <td className="px-6 py-3">
                 Klassiske intervaller: 15 min oppvarming, 5x1200m i sone 4 med 2 min aktiv pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Teknisk løping på sti: 45 min sone 1, fokus på nedoverbakker</td>
-              <td className="px-6 py-3">Lett løping: 40 min, sone 1 (lett dag før test)</td>
+              <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">
                 <strong>Running Fitness Test:</strong> 15 min oppvarming, 25 min løping litt under terskel, 3 min hardere, 3 min enda hardere, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Langtur på variert terreng: 20 km, sone 1-2</td>
             </tr>
             <tr className="divide-x divide-gray-200 dark:divide-gray-800">
               <td className="px-6 py-3">15</td>
@@ -244,9 +244,9 @@ export default function Home() {
               <td className="px-6 py-3">
                 Terskelintervaller med progresjon: 15 min oppvarming, 2x12 min i sone 3 med 3 min pause, 10 min nedjogging
               </td>
+              <td className="px-6 py-3">Lett løping: 45 min, sone 1 + 4x30s stride</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping: 45 min, sone 1</td>
-              <td className="px-6 py-3">Lett løping: 30 min, sone 1 + 4x30s stride</td>
+              <td className="px-6 py-3">Lett løping: 30 min, sone 1</td>
               <td className="px-6 py-3">Langtur på variert terreng: 20-25 km, sone 1-2 med noen bakkedrag</td>
             </tr>
           </tbody>
