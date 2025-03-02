@@ -80,7 +80,7 @@ export default function Home() {
             <tr className="divide-x divide-gray-200 dark:divide-gray-800">
               <td className="px-6 py-3">3</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping med "lette" intervaller: 40 min sone 1 + 5x1 min sone 2</td>
+              <td className="px-6 py-3">Lett løping med &quot;lette&quot; intervaller: 40 min sone 1 + 5x1 min sone 2</td>
               <td className="px-6 py-3">
                 Terskelintervaller: 15 min oppvarming, 4x8 min i sone 3 med 2 min pause, 10 min nedjogging
               </td>
@@ -98,7 +98,7 @@ export default function Home() {
               <td className="px-6 py-3">
                 Korte intervaller: 15 min oppvarming, 10x45 sek sone 4 med 15 sek pause, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Lett løping med "lette" intervaller: 40 min sone 1 + 5x2 min sone 2</td>
+              <td className="px-6 py-3">Lett løping med &quot;lette&quot; intervaller: 40 min sone 1 + 5x2 min sone 2</td>
               <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 35 min, sone 1</td>
               <td className="px-6 py-3">Lett langtur: 13 km, sone 1 (restitusjonsuke)</td>
@@ -135,7 +135,7 @@ export default function Home() {
             <tr className="divide-x divide-gray-200 dark:divide-gray-800">
               <td className="px-6 py-3">7</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping med "lette" intervaller: 40 min sone 1 + 6x2 min sone 2</td>
+              <td className="px-6 py-3">Lett løping med &quot;lette&quot; intervaller: 40 min sone 1 + 6x2 min sone 2</td>
               <td className="px-6 py-3">
                 Fartslek på sti: 15 min oppvarming, 30 min variert tempo
                 basert på terreng (sone 2-4), 10 min nedjogging
@@ -192,7 +192,7 @@ export default function Home() {
               <td className="px-6 py-3">
                 Terskelløp: 15 min oppvarming, 30 min sammenhengende løp i sone 3, 10 min nedjogging
               </td>
-              <td className="px-6 py-3">Lett løping med "lette" intervaller: 45 min sone 1 + 6x90 sek sone 2</td>
+              <td className="px-6 py-3">Lett løping med &quot;lette&quot; intervaller: 45 min sone 1 + 6x90 sek sone 2</td>
               <td className="px-6 py-3">Hviledag</td>
               <td className="px-6 py-3">Lett løping: 30 min, sone 1</td>
               <td className="px-6 py-3">Lett langtur: 15 km, sone 1 (restitusjonsuke)</td>
@@ -226,7 +226,7 @@ export default function Home() {
             <tr className="divide-x divide-gray-200 dark:divide-gray-800">
               <td className="px-6 py-3">14</td>
               <td className="px-6 py-3">Hviledag</td>
-              <td className="px-6 py-3">Lett løping med "lette" intervaller: 45 min sone 1 + 8x1 min sone 2</td>
+              <td className="px-6 py-3">Lett løping med &quot;lette&quot; intervaller: 45 min sone 1 + 8x1 min sone 2</td>
               <td className="px-6 py-3">
                 Klassiske intervaller: 15 min oppvarming, 5x1200m i sone 4 med 2 min aktiv pause, 10 min nedjogging
               </td>
@@ -274,12 +274,12 @@ export default function Home() {
           </li>
           <li className="mb-2">
             <strong>Langturer (søndager):</strong> Følger et ikke-lineært 
-            progresjonsmønster fra 15 km opp til 24 km, med strategiske restitusjonsuke i 
+            progresjonsmønster fra 15 km opp til 24 km, med strategiske restitusjonsuker i 
             uke 4, 7 og 11. Veksler mellom sti, asfalt og blandet underlag for å utvikle 
             allsidige ferdigheter.
           </li>
           <li className="mb-2">
-            <strong>Lette løpeturer med kvalitet:</strong> Inkluderer "lette" 
+            <strong>Lette løpeturer med kvalitet:</strong> Inkluderer &quot;lette&quot; 
             intervaller i sone 2 og stride for å forbedre løpsøkonomi uten å tære på 
             restitusjonskapasiteten.
           </li>
@@ -374,7 +374,7 @@ export default function Home() {
             å akkumulere betydelig tretthet.
           </li>
           <li className="mb-4">
-            <strong>Fartslek:</strong> Fra svensk "fart" (fart) og "lek" (lek), er en ustrukturert form for intervalltrening 
+            <strong>Fartslek:</strong> Fra svensk &quot;fart&quot; (fart) og &quot;lek&quot; (lek), er en ustrukturert form for intervalltrening 
             hvor du veksler mellom ulike intensiteter basert på følelse eller terreng. I programmet vårt brukes fartslek på 
             sti hvor intensiteten varierer naturlig med terrengets utfordringer: raskere på flate partier, hardere innsats i 
             oppoverbakker, og kontrollert, teknisk løping i nedoverbakker. Det er en leken, intuitiv tilnærming til 
@@ -404,8 +404,8 @@ export default function Home() {
             håndtere økende belastning og forbereder deg på konkurransesituasjoner hvor farten typisk øker mot slutten.
           </li>
           <li className="mb-4">
-            <strong>"Lette" intervaller:</strong> Korte intervaller i sone 2 som legges inn i ellers rolige løpeturer. 
-            Disse gir en viss treningsstimulus uten å påvirke restitusjonen betydelig. De fungerer som en "melkesyre-vaksine" 
+            <strong>&quot;Lette&quot; intervaller:</strong> Korte intervaller i sone 2 som legges inn i ellers rolige løpeturer. 
+            Disse gir en viss treningsstimulus uten å påvirke restitusjonen betydelig. De fungerer som en &quot;melkesyre-vaksine&quot; 
             og hjelper med å opprettholde en viss intensitetstoleranse selv på restitusjonsdager.
           </li>
           <li className="mb-4">
