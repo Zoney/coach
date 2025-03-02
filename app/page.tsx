@@ -81,6 +81,22 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <div className="border-solid rounded-md border-2 border-teal-500 flex flex-col gap-2 min-h-48">
+            <h3 className="text-2xl font-bold tracking-tight">
+              <Link className="underline" href="terreng">
+                Improved baseline
+              </Link>
+            </h3>
+            <p className="text-2xl font-bold">$89/month</p>
+            <p className="text-gray-500 dark:text-gray-400">
+              Specialized training to improve threshold pace and trail running performance.
+            </p>
+            <div className="mt-4">
+              <Link className="text-base font-medium underline" href="terreng">
+                Read more
+              </Link>
+            </div>
+          </div>
           <div className="border-solid rounded-md border-2 border-rose-500 flex flex-col gap-2 min-h-48">
             <h3 className="text-2xl font-bold tracking-tight">
               Barefoot walking/running
