@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "brand": "Øyvinds Coaching",
+    "description": "Reach your goals with personalized coaching from Øyvind.",
+    "est": "Est. 2024",
+    "footer": "© 2026 Øyvinds Coaching · Built on Jack Daniels' Running Formula and a healthy dose of enthusiasm.",
+    "language": "Language"
+  },
+  "home": {
+    "eyebrow": "Personalized coaching",
+    "title": "Run further. Recover smarter.",
+    "titleTail": "Repeat.",
+    "lede": "Get the guidance you need to reach your goals. Our experienced coaches are here to support you every step of the way.",
+    "cta": "Browse plans",
+    "readMore": "Read more",
+    "comingSoon": "Coming soon",
+    "perMonth": "/month"
+  },
+  "plan": {
+    "back": "All plans",
+    "week": "Week",
+    "weeks": "{count, plural, one {# week} other {# weeks}}",
+    "sessions": "{count, plural, one {# session} other {# sessions}}",
+    "schedule": "Weekly plan",
+    "zones": "Zones",
+    "zone": "Zone",
+    "kinds": {
+      "rest": "Rest",
+      "easy": "Easy",
+      "long": "Long run",
+      "tempo": "Threshold / tempo",
+      "interval": "Intervals",
+      "test": "Test",
+      "race": "Race / goal"
+    }
+  }
+}

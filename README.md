@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Øyvinds Coaching
 
-## Getting Started
+Små, håndlagde løpeplaner (Jack Daniels-inspirert) som en Next.js-side.
 
-First, run the development server:
+- Next.js 16 (App Router) · React 19 · Tailwind CSS 4 · TypeScript · next-intl
+- **To språk:** alle sider ligger under `/no/…` og `/en/…`. `proxy.ts` sender
+  besøkende uten prefiks til `/no` ved norsk IP (`x-vercel-ip-country`) eller
+  norsk `Accept-Language`, ellers til `/en`; språkvelgeren i headeren setter
+  `NEXT_LOCALE`-cookien som overstyrer dette. UI-tekster bor i `messages/*.json`.
+- **Planer:** én mappe per plan i `content/<slug>/` med `no.tsx` og `en.tsx`
+  (ukedata som `Week[]`, prosa som JSX) og en `index.ts` som samler dem.
+  `content/index.ts` registrerer slug → plan og kortene på forsida.
+  Rendering skjer i `components/running-plan.tsx` (tabell på desktop, uke-kort
+  på mobil, fargekodet etter økt-type via `classify()` i `lib/plans.ts`).
+- **Ny plan:** lag `content/<slug>/{no,en,index}.tsx`, legg den inn i `PLANS`
+  og `CATALOG` i `content/index.ts`. Ruta `/[locale]/<slug>` genereres statisk.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev        # http://localhost:3000
+pnpm lint
+pnpm typecheck
+pnpm build
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

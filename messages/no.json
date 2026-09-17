@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "brand": "Øyvinds Coaching",
+    "description": "Nå målene dine med personlig coaching fra Øyvind.",
+    "est": "Est. 2024",
+    "footer": "© 2026 Øyvinds Coaching · Bygget på Jack Daniels' Running Formula og en god porsjon entusiasme.",
+    "language": "Språk"
+  },
+  "home": {
+    "eyebrow": "Personlig coaching",
+    "title": "Løp lenger. Restituer smartere.",
+    "titleTail": "Gjenta.",
+    "lede": "Få veiledningen du trenger for å nå målene dine. Våre erfarne trenere står klare til å støtte deg hele veien.",
+    "cta": "Se planene",
+    "readMore": "Les mer",
+    "comingSoon": "Kommer snart",
+    "perMonth": "/mnd"
+  },
+  "plan": {
+    "back": "Alle planer",
+    "week": "Uke",
+    "weeks": "{count, plural, one {# uke} other {# uker}}",
+    "sessions": "{count, plural, one {# økt} other {# økter}}",
+    "schedule": "Ukeplan",
+    "zones": "Soner",
+    "zone": "Sone",
+    "kinds": {
+      "rest": "Hvile",
+      "easy": "Rolig",
+      "long": "Langtur",
+      "tempo": "Terskel / tempo",
+      "interval": "Intervall",
+      "test": "Test",
+      "race": "Konkurranse / mål"
+    }
+  }
+}
