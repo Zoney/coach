@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeistMono } from "geist/font/mono";
+import { GeistSans } from "geist/font/sans";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { SITE_URL, alternates } from "@/lib/site";
 import "../globals.css";
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
-const geistMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-geist-mono",
-});
-
+// Geist is bundled from the npm package and served from our own server.
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -29,8 +26,17 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "layout" });
   return {
+    metadataBase: new URL(SITE_URL),
     title: { default: t("brand"), template: `%s · ${t("brand")}` },
     description: t("description"),
+    alternates: alternates(locale),
+    openGraph: {
+      type: "website",
+      siteName: t("brand"),
+      description: t("description"),
+      locale: locale === "no" ? "nb_NO" : "en_US",
+      url: `${SITE_URL}/${locale}`,
+    },
   };
 }
 
@@ -41,7 +47,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   const t = await getTranslations("layout");
 
   return (
-    <html lang={locale} className={`${geist.variable} ${geistMono.variable}`}>
+    <html
+      lang={locale}
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
+    >
       <body className="min-h-dvh bg-bg font-sans text-fg antialiased">
         <NextIntlClientProvider>
           <div
@@ -68,8 +77,14 @@ export default async function LocaleLayout({ children, params }: Props) {
             </div>
           </header>
           <main>{children}</main>
-          <footer className="mx-auto max-w-6xl px-5 py-10 text-xs text-muted">
-            {t("footer")}
+          <footer className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-10 text-xs text-muted">
+            <span>{t("footer")}</span>
+            <Link
+              href="/personvern"
+              className="underline-offset-4 hover:text-fg hover:underline"
+            >
+              {t("privacy")}
+            </Link>
           </footer>
         </NextIntlClientProvider>
       </body>

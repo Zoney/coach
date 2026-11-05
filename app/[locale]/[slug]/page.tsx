@@ -5,6 +5,7 @@ import { setRequestLocale } from "next-intl/server";
 import { RunningPlan } from "@/components/running-plan";
 import { PLANS } from "@/content";
 import { routing } from "@/i18n/routing";
+import { alternates } from "@/lib/site";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -24,7 +25,13 @@ function resolve(locale: string, slug: string) {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const plan = resolve(locale, slug);
-  return plan ? { title: plan.metaTitle } : {};
+  return plan
+    ? {
+        title: plan.metaTitle,
+        alternates: alternates(locale, `/${slug}`),
+        openGraph: { title: plan.metaTitle, url: `/${locale}/${slug}` },
+      }
+    : {};
 }
 
 export default async function PlanPage({ params }: Props) {
