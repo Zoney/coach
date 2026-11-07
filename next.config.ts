@@ -26,6 +26,8 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  // The release folder is read-only on the app server: keep the ISR cache in memory
+  experimental: { isrFlushToDisk: false },
   poweredByHeader: false,
   headers: async () => [
     {

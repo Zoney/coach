@@ -16,6 +16,9 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+// Only the known locales: anything else (e.g. scanners asking for /README.md) is a plain 404
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
